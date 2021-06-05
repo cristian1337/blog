@@ -1,9 +1,16 @@
 .header {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
   min-height: 64px;
-  padding: 2em 0;
+  padding: 0.25rem 0;
   text-align: center;
   letter-spacing: -0.02em;
+  width: 60rem;
+  max-width: 100vw;
+  margin: 15px auto;
 }
 
 .header ul {
@@ -17,17 +24,24 @@
 }
 
 .header :global(a) {
-  color: var(--accents-3);
-  font-weight: 400;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
 .header :global(a.active) {
-  color: #0070f3;
-  font-weight: 600;
+  color: #310a90;
+  font-weight: 700;
+}
+
+.header img {
+  width: 50px;
+  margin-right: 168px;
 }
 
 @media (max-width: 600px) {
   .header {
-    padding: .5em 0 2em;
+    padding: 0.5em 0 2em;
   }
 }

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <title>My Blog</title>
+    <subtitle>Blog</subtitle>
+    <link href="/atom" rel="self" type="application/rss+xml"/>
+    <link href="/" />
+    <updated>2021-06-05T05:44:07.656Z</updated>
+    <id>My Notion Blog</id>
+    <entry>
+      <id>/blog/mi-primer-post</id>
+      <title>mi primer post</title>
+      <link href="/blog/mi-primer-post"/>
+      <updated>2021-05-27T05:00:00.944Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/blog/mi-primer-post">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Cristian Osorio Gomez</name></author>
+    </entry>
+    <entry>
+      <id>/blog/blog-post</id>
+      <title>Blog Post</title>
+      <link href="/blog/blog-post"/>
+      <updated>2021-05-27T05:00:00.944Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/blog/blog-post">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Cristian Osorio Gomez</name></author>
+    </entry>
+    <entry>
+      <id>/blog/segundo-post</id>
+      <title>Segundo post</title>
+      <link href="/blog/segundo-post"/>
+      <updated>2021-05-27T05:00:00.945Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/blog/segundo-post">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Cristian Osorio Gomez</name></author>
+    </entry>
+  </feed>
