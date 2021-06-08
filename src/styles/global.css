@@ -650,6 +650,10 @@ label {
     letter-spacing: 0;
   }
 
+  .redes-header img {
+    margin-right: 16px;
+  }
+
   .usuario {
     flex-direction: column-reverse;
   }

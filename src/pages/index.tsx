@@ -12,10 +12,10 @@ export default function Index() {
           <h2 className="nombre">Soy Cristian</h2>
           <p className="intro">
             Full Stack Developer que le encanta implementar diseños que inspiran
-            y atraen a las personas, ademas de esto de crear software que cambie
-            y mejore vidas a traves de tecnología.
+            y atraen a las personas, ademas de esto, crear software que cambie y
+            mejore vidas a traves de tecnología.
           </p>
-          <div className="seccion-redes">
+          <div className="seccion-redes redes-header">
             <img src="/telefono.svg" alt="telefono" />
             <img src="/correo.svg" alt="correo" />
             <img src="/instagram.svg" alt="instagram" />
