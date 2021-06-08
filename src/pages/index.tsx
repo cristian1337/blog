@@ -9,7 +9,7 @@ export default function Index() {
       <div className="explanation usuario">
         <div className="presentacion-usuario">
           <h5>¡Hola a todos!</h5>
-          <h2>Soy Cristian</h2>
+          <h2 className="nombre">Soy Cristian</h2>
           <p className="intro">
             Full Stack Developer que le encanta implementar diseños que inspiran
             y atraen a las personas, ademas de esto de crear software que cambie
@@ -26,7 +26,7 @@ export default function Index() {
           </div>
         </div>
         <div>
-          <img src="/user.png" alt="" />
+          <img className="foto-presentacion" src="/user.png" alt="" />
         </div>
       </div>
       <div className="explanation carrera">
@@ -34,10 +34,12 @@ export default function Index() {
           A lo largo de mi carrera como Frontend, he tenido el privilegio de
           trabajar en proyectos retadores e increíbles
         </p>
-        <h5>Aquí hay algunos que me gustaría compartir.</h5>
+        <h5 className="compartir">
+          Aquí hay algunos que me gustaría compartir.
+        </h5>
         <img src="flecha-abajo.png" alt="flecha abajo" />
       </div>
-      <div id="proyectos" className="explanation portafolio">
+      <div id="proyectos" className="explanation portafolio empleos-eje">
         <div className="info-proyecto">
           <h4 className="titulo-proyecto">empleosdeleje.com</h4>
           <p>
@@ -52,16 +54,18 @@ export default function Index() {
           <img src="/mockup-web-empleos-del-eje.png" alt="empleos del eje" />
         </div>
       </div>
-      <div className="explanation recomendaciones">
-        <img src="/leonidas.png" alt="leonidas" />
-        <p className="texto-recomendacion">
-          "Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de
-          desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
-          meses ".
-        </p>
-        <h5 className="nombre-recomendacion">
-          LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM
-        </h5>
+      <div className="explanation">
+        <div className="recomendaciones">
+          <img src="/leonidas.png" alt="leonidas" />
+          <p className="texto-recomendacion">
+            "Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de
+            desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
+            meses ".
+          </p>
+          <h5 className="nombre-recomendacion">
+            LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM
+          </h5>
+        </div>
       </div>
       <div id="proyectos" className="explanation portafolio">
         <div className="imagen-proyecto">
@@ -78,17 +82,19 @@ export default function Index() {
           </ExtLink>
         </div>
       </div>
-      <div className="explanation recomendaciones">
-        <img src="/usuario-2.png" alt="leonidas" />
-        <p className="texto-recomendacion">
-          "Jaume ha superado mis expectativas desde el diseño hasta el
-          desarrollo".
-        </p>
-        <h5 className="nombre-recomendacion">
-          JASON LOPEZ / COFUNDADOR Y CEO MARVOL
-        </h5>
+      <div className="explanation">
+        <div className="recomendaciones">
+          <img src="/usuario-2.png" alt="leonidas" />
+          <p className="texto-recomendacion">
+            "Jaume ha superado mis expectativas desde el diseño hasta el
+            desarrollo".
+          </p>
+          <h5 className="nombre-recomendacion">
+            JASON LOPEZ / COFUNDADOR Y CEO MARVOL
+          </h5>
+        </div>
       </div>
-      <div id="proyectos" className="explanation portafolio">
+      <div id="proyectos" className="explanation portafolio app">
         <div className="info-proyecto margin-app">
           <h4 className="titulo-proyecto">Delivery Taste</h4>
           <p>
@@ -115,13 +121,15 @@ export default function Index() {
           <img src="/delivery-app.png" alt="app de delivery" />
         </div>
       </div>
-      <div className="explanation recomendaciones">
-        <img src="/usuario-3.png" alt="leonidas" />
-        <p className="texto-recomendacion">
-          "Por primera vez en la historia de nuestra empresa, aparecimos en
-          todas las plataformas en las que trabajamos".
-        </p>
-        <h5 className="nombre-recomendacion">MARCO CORTEZ / NETNET</h5>
+      <div className="explanation">
+        <div className="recomendaciones">
+          <img src="/usuario-3.png" alt="leonidas" />
+          <p className="texto-recomendacion">
+            "Por primera vez en la historia de nuestra empresa, aparecimos en
+            todas las plataformas en las que trabajamos".
+          </p>
+          <h5 className="nombre-recomendacion">MARCO CORTEZ / NETNET</h5>
+        </div>
       </div>
       <div className="explanation hablemos">
         <div className="formulario">

@@ -31,7 +31,7 @@ const Header = ({ titlePre = '' }) => {
         <meta name="twitter:image" content={ogImageUrl} />
       </Head>
       <img src="/logo.svg" alt="logo" />
-      <ul>
+      <ul className="menu">
         {navItems.map(({ label, page, link }) => (
           <li key={label}>
             {page ? (
@@ -46,6 +46,9 @@ const Header = ({ titlePre = '' }) => {
           </li>
         ))}
       </ul>
+      <div className="curriculum">
+        <ExtLink className="boton">CURRÍCULUM</ExtLink>
+      </div>
     </header>
   )
 }

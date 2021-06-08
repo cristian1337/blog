@@ -42,6 +42,16 @@
 
 @media (max-width: 600px) {
   .header {
-    padding: 0.5em 0 2em;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 1rem 1rem;
+  }
+  .header img {
+    margin: 0;
+    width: 15%;
+  }
+  .header a {
+    padding: 13px 24px;
+    font-size: 14px;
   }
 }

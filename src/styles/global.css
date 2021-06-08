@@ -362,17 +362,6 @@ code {
   transform: skew(-20deg);
 }
 
-@media (max-width: 600px) {
-  .explanation {
-    padding: 0 1rem 4rem;
-  }
-
-  h2 {
-    font-size: 0.95rem;
-    letter-spacing: 0;
-  }
-}
-
 .dotted {
   border-bottom: 1px dashed black;
 }
@@ -406,7 +395,6 @@ footer .seccion-redes img {
   border: 2px solid #310a90;
   border-radius: 4px;
   width: 45px;
-  margin-right: 16px;
 }
 
 footer span:nth-child(3) a {
@@ -433,7 +421,6 @@ footer span:nth-child(3) a {
   border-radius: 4px;
   width: 45px;
   height: 45px;
-  margin-right: 16px;
 }
 
 .boton {
@@ -645,4 +632,135 @@ label {
   line-height: 23px;
   color: white;
   padding: 13px 0;
+}
+
+.redes {
+  display: flex;
+  gap: 16px;
+}
+
+@media (max-width: 600px) {
+  .explanation {
+    padding: 0 1rem 2rem;
+    width: 100vw;
+  }
+
+  h2 {
+    font-size: 0.95rem;
+    letter-spacing: 0;
+  }
+
+  .usuario {
+    flex-direction: column-reverse;
+  }
+
+  .portafolio,
+  footer {
+    flex-direction: column !important;
+  }
+
+  .seccion-redes {
+    flex-direction: column-reverse;
+  }
+
+  .seccion-redes p {
+    text-align: center;
+    margin: 0 !important;
+  }
+
+  .redes {
+    margin-bottom: 24px;
+  }
+
+  .portafolio img,
+  .formulario,
+  .presentacion-usuario {
+    width: 100%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .nombre {
+    font-size: 48px;
+    line-height: 78px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .intro-carrera {
+    font-size: 24px;
+    justify-content: flex-start;
+  }
+
+  .compartir {
+    text-align: center;
+  }
+
+  .carrera {
+    height: 500px;
+  }
+
+  .empleos-eje {
+    flex-direction: column-reverse !important;
+  }
+
+  .titulo-proyecto {
+    font-size: 24px;
+  }
+
+  .margin-app {
+    margin: 0;
+  }
+
+  .app {
+    flex-direction: column-reverse !important;
+  }
+
+  .botones {
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .ver-proyecto,
+  .ver-codigo {
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .ver-codigo {
+    margin: 0;
+  }
+
+  .curriculum {
+    display: flex;
+  }
+
+  .recomendaciones {
+    margin: 40px auto;
+    padding: 24px;
+  }
+
+  .texto-recomendacion {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  .nombre-recomendacion {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .foto-presentacion {
+    width: 100%;
+  }
+
+  .logo-blanco {
+    display: none;
+  }
 }

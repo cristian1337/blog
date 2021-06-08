@@ -10,10 +10,12 @@ export default function Footer() {
             Hecho con &#128153; por Cristian. Copyright 2021 - todos los
             derechos reservados.
           </p>
-          <img src="/telefono.svg" alt="telefono" />
-          <img src="/correo.svg" alt="correo" />
-          <img src="/instagram.svg" alt="instagram" />
-          <img src="/twitter.svg" alt="twitter" />
+          <div className="redes">
+            <img src="/telefono.svg" alt="telefono" />
+            <img src="/correo.svg" alt="correo" />
+            <img src="/instagram.svg" alt="instagram" />
+            <img src="/twitter.svg" alt="twitter" />
+          </div>
         </div>
       </footer>
     </>
