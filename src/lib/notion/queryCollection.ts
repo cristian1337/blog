@@ -10,8 +10,8 @@ export default function queryCollection({
     limit = 999, // TODO: figure out Notion's way of handling pagination
     loadContentCover = true,
     type = 'table',
-    userLocale = 'en',
-    userTimeZone = 'America/Phoenix',
+    userLocale = 'es',
+    userTimeZone = 'America/Bogota',
   } = loader
 
   const {

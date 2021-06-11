@@ -50,7 +50,12 @@ const Header = ({ titlePre = '' }) => {
           </li>
         ))}
       </ul>
-      <div className="curriculum">
+      <div className="curriculum menu-movil">
+        <Link href="/blog">
+          <a className="boton-blog">BLOG</a>
+        </Link>
+      </div>
+      <div className="curriculum menu-movil">
         <ExtLink className="boton">CURRÍCULUM</ExtLink>
       </div>
     </header>

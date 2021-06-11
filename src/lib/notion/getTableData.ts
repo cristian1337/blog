@@ -29,7 +29,7 @@ export default async function loadTable(collectionBlock: any, isPosts = false) {
       row.id = entry.value.id
     }
 
-    schemaKeys.forEach(key => {
+    schemaKeys.forEach((key) => {
       // might be undefined
       let val = props[key] && props[key][0][0]
 
@@ -67,7 +67,7 @@ export default async function loadTable(collectionBlock: any, isPosts = false) {
             // calculate offset from provided time zone
             const timezoneOffset =
               new Date(
-                new Date().toLocaleString('en-US', {
+                new Date().toLocaleString('es-CO', {
                   timeZone: type[1].time_zone,
                 })
               ).getTime() - new Date().getTime()

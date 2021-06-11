@@ -639,6 +639,24 @@ label {
   gap: 16px;
 }
 
+.menu-movil {
+  display: none;
+}
+
+.redes-header {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.boton-blog {
+  padding: 13px 24px;
+  background: transparent;
+  border: 2px solid #310a90;
+  border-radius: 4px;
+  color: #310a90 !important;
+}
+
 @media (max-width: 600px) {
   .explanation {
     padding: 0 1rem 2rem;
@@ -648,10 +666,6 @@ label {
   h2 {
     font-size: 0.95rem;
     letter-spacing: 0;
-  }
-
-  .redes-header img {
-    margin-right: 16px;
   }
 
   .usuario {
