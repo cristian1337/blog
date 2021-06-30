@@ -686,6 +686,10 @@ label {
     margin: 0 !important;
   }
 
+  .redes-header {
+    flex-direction: row;
+  }
+
   .redes {
     margin-bottom: 24px;
   }

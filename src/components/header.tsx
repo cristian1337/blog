@@ -34,7 +34,10 @@ const Header = ({ titlePre = '' }) => {
           rel="stylesheet"
         />
       </Head>
-      <img src="/logo.svg" alt="logo" />
+      <Link href="/">
+        <img src="/logo.svg" alt="logo" />
+      </Link>
+
       <ul className="menu">
         {navItems.map(({ label, page, link }) => (
           <li key={label}>
